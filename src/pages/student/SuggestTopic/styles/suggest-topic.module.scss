@@ -1,0 +1,249 @@
+.headerTopic {
+    padding: 14px 5%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px #dadada;
+
+    .listBtn {
+        .btnCreate {
+            border-radius: 6px;
+            font-weight: 600;
+            color: #ffffff;
+            padding: 10px 22px;
+            background: #2196F3;
+            font-size: 15px;
+        }
+    }
+
+    .info {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+
+        div {
+            height: 40px;
+        }
+    }
+
+    .search {
+
+        width: 40%;
+        position: relative;
+
+        .titleForm {
+            font-size: 16px;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        &Input {
+            width: 320px;
+            position: absolute;
+            top: -22px;
+            left: -10px;
+            font-size: 15px;
+            border: 1px solid #dadada;
+            padding: 12px 40px;
+            border-radius: 4px;
+        }
+
+        &Icon {
+            position: absolute;
+            left: 6px;
+            top: -12px;
+            z-index: 20;
+
+            i {
+                font-size: 16px;
+            }
+
+        }
+    }
+}
+
+.suggestTopic {
+    width: 100%;
+
+    .mainRegister {
+        width: 100%;
+        padding: 10px 0%;
+
+        .form {
+            padding: 30px 5%;
+            width: 100%;
+            border: 10px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #dadada;
+
+            .titleForm {
+                font-size: 16px;
+                color: #333;
+                font-weight: 600;
+                border-left: 6px solid #6f9fe6;
+                padding-left: 10px;
+            }
+
+            .row1 {
+                margin-top: 25px;
+
+                .item {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    .label {
+                        color: #595656;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+
+                    input {
+                        width: 100%;
+                        border: 1px solid #D1C6C6;
+                        font-size: 14px;
+                        padding: 10px 10px;
+                        border-radius: 5px;
+                    }
+
+                    .teacher {
+                        width: 100%;
+                        border: 1px solid #D1C6C6;
+                        font-size: 14px;
+                        padding: 10px 25px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            .row2 {
+                margin-top: 25px;
+
+                .item {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    .label {
+                        color: #595656;
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+                    textarea {
+                        padding: 4px 2%;
+                        width: 100%;
+                        border: 1px solid #D1C6C6;
+                        height: 150px;
+                    }
+                }
+            }
+
+            .row3 {
+
+                margin-top: 25px;
+
+                .item {
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    .label {
+                        color: #595656;
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+                    .select {
+                        width: 100%;
+                        border: 1px solid #D1C6C6;
+                        padding: 10px 25px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            .row4 {
+                margin-top: 30px;
+                display: flex;
+                justify-content: flex-end;
+
+                .btnRegister {
+                    padding: 10px 20px;
+                    background-color: #2641b1;
+                    border-radius: 5px;
+                    color: #ffffff;
+                    border: none;
+                    font-size: 14px;
+                    opacity: 0.8;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .row5 {
+
+                margin-top: 25px;
+
+                .item {
+                    width: 46%;
+
+                    .label {
+                        color: #595656;
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+                    .select {
+                        width: 100%;
+                        border: 1px solid #D1C6C6;
+                        padding: 10px 25px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.require {
+    color: #dc0f0f;
+}
+
+.notFoundTopic {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 600px;
+        height: 500px;
+        position: absolute;
+
+        img {
+            object-fit: fill;
+        }
+
+        .noty {
+            font-size: 1.5rem;
+            font-weight: 700;
+            position: absolute;
+            left: 100px;
+            bottom: -40px;
+            color: coral;
+        }
+    }
+}

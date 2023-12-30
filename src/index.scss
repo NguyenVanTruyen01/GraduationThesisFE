@@ -1,0 +1,81 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: normal;
+  color: var(--text-color);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.active li a:hover:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #0e4bf1;
+}
+
+input,
+select {
+  outline: none
+}
+
+.hidden-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.form-layout {
+  @apply grid grid-cols-1 lg:grid-cols-2 lg:gap-x-10;
+}
+
+.form-layout2 {
+  @apply grid grid-cols-1 lg:grid-cols-3 lg:gap-5;
+}
+
+.card {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.regularFont {
+  font-size: 10px !important;
+}
+
+.p-inputnumber-input {
+  text-align: center
+}
+
+.p-dropdown-label,
+.p-paginator-page {
+  font-size: 14px
+}
+
+
+
+
+
+@import "./assets/scss/style.scss";
+@import "./assets/scss/lib.scss";

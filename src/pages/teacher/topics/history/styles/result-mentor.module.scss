@@ -1,0 +1,91 @@
+
+
+.resultMentor{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(88, 85, 85, 0.546);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+
+    .resultMentorMain{
+        width: 60%;
+        height: auto;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 40px 30px;
+        overflow-y: scroll;
+        box-sizing: border-box;
+        overflow: hidden;
+        .resultMentorHeader{
+            cursor: pointer;
+        }
+
+    }
+}
+
+
+.tableStudent{
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #333 ;
+  .tr{
+    border: 1px solid #333 ;
+    .th {
+      border: 1px solid #333 ;
+    }
+    .td{
+      border: 1px solid #333 ;
+    }
+    
+  }
+}
+  .titleSession{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .btnSave{
+    padding: 10px 25px;
+    background-color: rgb(39, 112, 175);
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .resultMentorBody{
+    padding-top: 20px;
+  }
+
+  
+  .nameSchool{
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 4px;
+  }
+    .nameFaculity{
+      text-decoration: underline;
+    }
+  .lineItem{
+    margin-top: 8px;
+  }
+    .nameItemSection{
+      font-weight: bold;
+    
+      
+    }
+    .nameItemContent{
+      font-size: 18px;
+    }
+  
+    .mentorName{
+      font-size: 12px;
+    
+      margin-top: 20px;
+      .nameProfile{
+        font-size: 16px;
+        text-align:center ;
+      }
+    }

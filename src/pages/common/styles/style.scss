@@ -1,0 +1,202 @@
+@import url(./reset.css);
+
+.page-wrapper {
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#header {
+  position: fixed;
+  z-index: 1002;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  width: 100%;
+  background: #ccc;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(10, 66, 110);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#header .header-list {
+  display: flex;
+  padding-left: 0;
+  margin: auto 20px;
+  color: rgb(206, 208, 196);
+
+}
+
+.header-list .list-item .login {
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+
+.header-list .list-item .login:hover {
+  opacity: 0.8;
+}
+
+.dropdown-mega-toggle {
+  color: #ccc;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.social-icon a {
+  color: #ccc;
+}
+
+.branding {
+  top: 50px;
+  position: absolute;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.branding .branding-inner {
+  position: relative;
+  margin: auto 20px;
+}
+
+.branding .brainding-main-nav {
+  margin: auto 20px;
+
+}
+
+.branding .brainding-main-nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.branding .branding-inner .site-name {
+  color: #353e4e;
+  font-weight: 700;
+  font-size: 24px;
+  position: relative;
+}
+
+.branding-inner .site-name .site-logo {
+  height: 60px;
+  width: 260px;
+  background-image: url("../../../asset//images/logo-spkt.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+
+#slider {
+  position: relative;
+  margin-top: 140px;
+  padding-top: 50%;
+  // background: url("../../../asset/images/working.jpg") top center / cover no-repeat;
+}
+
+#slider .text-content {
+  position: absolute;
+  top: 100px;
+  /* bottom: 48px; */
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+#slider .text-content .uni-name {
+  font-weight: 700;
+  font-size: 50px;
+  color: #0a426e;
+}
+
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 270px;
+  background-image: linear-gradient(to right, #0a426e 0%, #196eb2 100%);
+}
+
+#footer .footer-item {
+  color: #ffffff;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer-item .footer-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.footer-item .benefits {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-item .benefit-content {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*======================
+    404 page
+=======================*/
+
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  height: 100vh;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  // height: 100%;
+  background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}

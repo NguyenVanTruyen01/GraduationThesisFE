@@ -1,0 +1,28 @@
+.top {
+  position: fixed;
+  top: 0;
+  left: 230px;
+  display: flex;
+  width: calc(100% - 230px);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  @apply bg-panelColor shadow-neutral-400 shadow-inner;
+  transition: all 0.5s ease;
+  z-index: 10;
+}
+
+nav.close~.dashboard .top {
+  left: 73px;
+  width: calc(100% - 73px);
+}
+
+.top .sidebar-toggle {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.top img {
+  width: 40px;
+  border-radius: 50%;
+}

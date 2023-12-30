@@ -1,0 +1,146 @@
+.resultMentor {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(88, 85, 85, 0.546);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  font-size: 15px;
+
+  .resultMentorMain {
+    width: 70%;
+    height: 500px;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 25px 40px;
+    position: absolute;
+
+    .resultMentorBody {
+      display: flex;
+      flex-direction: column;
+      gap: 1.3rem;
+    }
+
+    .resultMentorHeader {
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+
+  }
+}
+
+.notFoundTopic {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+
+    img {
+      object-fit: fill;
+      width: 100%;
+      height: 100%;
+    }
+
+    .noty {
+      font-size: 1.5rem;
+      font-weight: 700;
+      position: absolute;
+      left: 109px;
+      bottom: 50px;
+      color: coral;
+    }
+  }
+}
+
+table {
+  margin-top: 15px;
+}
+
+.tableStudent {
+  width: 100%;
+  border: 1px solid #333;
+
+  .tr {
+    border: 1px solid #333;
+
+    .th {
+      border: 1px solid #333;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .mark {
+      width: 120px;
+    }
+
+    .td {
+      border: 1px solid #333;
+    }
+
+  }
+}
+
+.titleSession {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nameSchool {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.nameFaculity {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.lineItem {
+  margin-top: 8px;
+}
+
+.nameItemSection {
+  font-weight: 700;
+}
+
+.nameItemContent {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.mentorName {
+  font-size: 16px;
+  margin-top: 20px;
+  display: flex;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mentorTitle {
+      font-weight: 600;
+    }
+  }
+
+  .nameProfile {
+    font-size: 15px;
+    margin-top: 0.6rem;
+    text-align: center;
+  }
+}

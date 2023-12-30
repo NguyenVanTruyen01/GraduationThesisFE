@@ -1,0 +1,53 @@
+
+
+.item{
+    width: 250px;
+    height: 140px;
+    background: #ffffff;
+    border: 1px solid #dadada;
+    position: relative;
+    .option{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        .listOption{
+
+            position: absolute;
+            display: none;
+            width: 100px;
+            top: 5px ;
+            left: 3px;
+            box-shadow: 0 3px 12px 1px rgba(44,55,130,.15);
+            .itemOption{
+                padding: 8px;
+                border-radius: 3px;
+                font-size: 10px;
+                background-color: #ffffff;
+                transition: all ease 1.8;
+
+            }
+        }
+        &:hover{
+            .listOption{
+                display: block;
+                .itemOption{
+                    
+                    &:hover{
+                        background-color: #f3f0f0;
+                    }
+                }
+            }
+        }
+    }
+    .image{
+        font-size: 45px;
+        color: rgb(138, 163, 255);
+        width: 100%;
+        height: 60%;
+    }
+    .titleItem{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,114 @@
+.fileContainer {
+    width: 38px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+    border: 1px solid #757a95;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    i {
+        color: #222;
+        display: block;
+        margin: auto;
+    }
+
+    input {
+        display: none;
+    }
+}
+
+.profile-container {
+    position: relative;
+
+    .change-coverPicture-modal {
+        position: absolute;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+        z-index: 9;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 66px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        box-shadow: -10px 20px 20px 20px rgb(0 0 0 / 40%);
+
+        .content {
+            color: #ffffff;
+            font-weight: 600;
+        }
+    }
+}
+
+.group-btn {
+    display: flex;
+    gap: 0.6rem;
+
+    >button {
+        min-width: 110px;
+        padding: 6px;
+        border-radius: 5px;
+        font-weight: 600;
+        color: #ffffff;
+        opacity: .9;
+    }
+
+    >button:hover {
+        opacity: 1;
+    }
+
+    .cancel {
+        background: #495057
+    }
+
+    .save {
+        background-color: rgba(77, 68, 181, 0.9);
+    }
+}
+
+.modal-changeAvatar {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+
+    .author-changeAvatar {
+        width: 300px;
+        border-radius: 50%;
+
+        .profile-author-change {
+            width: 100%;
+            height: 300px;
+            position: relative;
+
+            .avatar {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border: 3px solid #CED0D4;
+                border-radius: 50%;
+                position: relative;
+            }
+
+            .edit-dp {
+                position: absolute;
+                width: 10px;
+                right: 57px;
+                bottom: 28px;
+
+                .fileContainer {
+                    width: 60px;
+                    height: 60px;
+
+                    >i {
+                        font-size: 2rem;
+                    }
+                }
+
+            }
+        }
+    }
+}

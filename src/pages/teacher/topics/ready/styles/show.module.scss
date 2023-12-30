@@ -1,0 +1,90 @@
+
+
+.section{
+    width: 100%;
+    .title{ 
+        width: 200px;
+        height: 250px;
+        .imageAvatar{
+            margin-left: 10%;
+            width: 120px;
+            height: 120px;
+            box-sizing: border-box;
+            overflow: hidden;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nameAssemblyUser{
+            font-size: 22px;
+        }
+    }
+    .moreInfo{
+        height: 250px;
+        .lineInfo{
+            margin-top: 10px;
+            display: flex;
+            .lineInfoTitle{
+                font-weight: 600;
+                font-size: 18px;
+            }
+            .lineInfoContent{
+                font-style: italic;
+                font-size: 18px;
+            }
+        }
+        .contactInfo{
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: underline;
+        }
+        .contactInfoList{
+            .line{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.nameTopic{
+    font-size: 14px;
+}
+
+.desTopic{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgba(225, 227, 229, 0.633);
+    font-style: italic;
+}
+.sectionDocument{
+    margin-top: 20px;
+    .sectionDocumentTitle{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+.sectionDescriptionTitle{
+    font-size: 20px;
+        font-weight: 700;
+}
+.fileRequirement{
+    margin: 20px 0;
+    .listFile{
+        .itemFile{
+            a{
+                i{
+                    font-size: 32px;
+                }
+                margin-bottom: 10px;
+            }
+            .noteEmpty{
+                color: rgb(233, 35, 28);
+                margin-top: 5px;
+            }
+            .noteFinish{
+                color: rgb(37, 179, 18);
+                margin-top: 5px;
+            }
+        }
+    }
+}

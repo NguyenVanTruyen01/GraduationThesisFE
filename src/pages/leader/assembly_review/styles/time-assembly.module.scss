@@ -1,0 +1,236 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 16px;
+    font-size: 15px;
+    width: 100%;
+    .groupLocation {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+
+        .locationItem {
+            display: flex;
+
+            .icon {
+                min-width: 180px;
+                font-weight: 600;
+
+                i {
+                    margin-right: 8px;
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+
+    .assembly {
+        display: flex;
+        // flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border: 1px solid green;
+        border-radius: 8px;
+        padding: 16px;
+        gap: 1rem;
+
+        .assemblyTitle {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .mainPerson {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .personItem {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0.8rem;
+                // width: 50%;
+                min-width: 20%;
+                .imageIcon {
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 1px solid #dadada;
+                    width: 80px;
+                    height: 80px;
+                    img {
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0.3rem;
+
+                .role {
+                    background-color: #6ef198;
+                    padding: 2px 6px;
+                    min-width: 80px;
+                    text-align: center;
+                    border-radius: 4px;
+                    opacity: 0.8;
+                }
+
+                .name {
+                    font-weight: 600;
+                    text-align: center;
+                }
+                .score{
+                    color: #233cbc;
+                    font-style: italic;
+                    text-decoration: underline;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        // .groupMember {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: space-around;
+        //     align-items: center;
+        //     margin-top: 1rem;
+        //     gap: 2rem;
+        //     width: 65%;
+
+        //     .listMember {
+        //         display: flex;
+        //         justify-content: space-around;
+        //         align-items: center;
+        //         gap: 1rem;
+        //         width: 100%;
+
+        //         .content{
+        //             .score{
+        //                 color: #233cbc;
+        //                 font-style: italic;
+        //                 text-decoration: underline;
+        //                 font-size: 12px;
+        //             }
+        //             .role {
+        //                 background-color: #f18a6e;
+        //                 padding: 2px 6px;
+        //                 // min-width: 80px;
+        //                 text-align: center;
+        //                 border-radius: 4px;
+        //                 opacity: 0.8;
+        //             }
+        //         }
+        //         .memberItem {
+        //             display: flex;
+        //             flex-direction: column;
+        //             justify-content: center;
+        //             align-items: center;
+        //             min-width: 200px;
+        //             gap: 0.8rem;
+
+        //             .imageIcon {
+        //                 border-radius: 50%;
+        //                 overflow: hidden;
+        //                 width: 80px;
+        //                 height: 80px;
+        //                 border: 1px solid #dadada;
+
+        //                 img {
+        //                     border-radius: 50%;
+        //                     object-fit: cover;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+    }
+}
+
+.btnScore{
+    padding: 8px 18px;
+    background-color: #d44b1d;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.listStudent{
+    padding-left: 25px;
+}
+
+.tableStudent{
+    width: 100%;
+    border: 1px solid #333 ;
+    .titleTable{
+        padding: 8px 5px;
+    }
+    .tr{
+      border: 1px solid #333 ;
+      .th {
+        border: 1px solid #333 ;
+      }
+      .td{
+        border: 1px solid #333 ;
+     
+      }
+      
+    }
+  }
+  .NotFoundAssembly{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title{
+        color: #233cbc;
+    }
+    .content{
+        font-size: 24px;
+        color: #4e4c4c;
+        i{
+            color: #e0bd1e;
+        }
+    }
+    .note{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .close{
+        font-size: 14px;
+        background-color: #233cbc;
+        padding: 10px 27px;
+        border-radius: 5px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+  }
+
+  .titleScore{
+
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .styleScore{
+    padding: 10px 0;
+    &:hover{
+        cursor: pointer;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #3753e19e;
+        color: #ffffff;
+      }
+  }
+  

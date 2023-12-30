@@ -1,0 +1,89 @@
+@import "../helpers/variable";
+
+.container{
+  width: 90%;
+  padding: 10px 5%;
+}
+.background-image{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.contain{
+  background-size: contain;
+}
+.item-center{
+  @include display-flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-start{
+  @include display-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-btw {
+  @include display-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-end {
+  @include display-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-columns {
+  @include display-flex;
+  flex-direction: column;
+}
+.flex-columns-re {
+  @include display-flex;
+  flex-direction: column-reverse;
+}
+.t-line{
+  text-decoration: none;
+}
+
+.bd-none{
+  border: none;
+}
+.t-center{
+  text-align: center;
+}
+.t-start{
+  text-align: center;
+}
+.t-decor{
+  text-decoration: none;
+}
+.b-sz{
+  box-sizing: border-box;
+}
+.o-hd{
+  overflow: hidden;
+}
+
+.h-100{height: 100vh;}
+.h-90{height: 90vh;}
+.h-80{height: 80vh;}
+.h-70{height: 70vh;}
+.h-60{height: 60vh;}
+.h-50{height: 50vh;}
+.h-40{height: 40vh;}
+.h-30{height: 30vh;}
+.h-10{height: 10vh;}
+.h-20{height: 20vh;}
+.w-10{width: 10%;}
+.w-20{width: 20%;}
+.w-25{width: 25%;}
+.w-30{width: 30%;}
+.w-40{width: 40%;}
+.w-50{width: 50%;}
+.w-60{width: 60%;}
+.w-70{width: 70%;}
+.w-80{width: 80%;}
+.w-90{width: 90%;}
+.w-100{width: 100%;}
+
+

@@ -1,0 +1,42 @@
+$media-tablet-horizontal: "only screen and (max-width : 1160px)";
+$media-tablet-vertical: "only screen and (max-width : 900px)";
+$media-ipad: "only screen and (max-width : 768px)";
+$media-phone: "only screen and (max-width : 767px)";
+$media-small-phone: "only screen and (max-width : 320px)";
+
+
+
+$main-color: #126239;
+$nav-bg-color: #1A94FF;
+$sub-color: #1A94FF;
+$image-bg-color: #E5E5E5;
+$light-bg-color: #F54550;
+$promotion-color: #FF0202;
+$dark-bg-color: #D40B17;
+$promotion-bg-color: #D73E47;
+$coin-color: #F6B545;
+
+$amount-product-w: 105px;
+$price-product-w: 152px;
+$total-price-product-w: 128px;
+
+$header-size: 60px;
+$image-ratio: 100%;
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin display-flex-important {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: -moz-box !important;
+  display: -moz-flex !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
